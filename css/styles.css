@@ -13,7 +13,7 @@
 
 .lineBorder {
   width: 1px;
-  background-color: #f4623a;
+  background-color: rgba(244, 98, 58, .8);
 }
 
 :root {
