@@ -12,8 +12,8 @@
  */
 
 .lineBorder {
-  border-width: 1px;
-  border-color: rgba(244, 98, 58, .8);
+  width: 1px;
+  background-color: rgba(244, 98, 58, .8);
 }
 
 :root {
