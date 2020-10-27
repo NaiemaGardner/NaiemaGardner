@@ -12,8 +12,7 @@
  */
 
 .lineBorder {
-  background-color: #f4623a;
-  height: 20px;
+  border: 1px solid #f4623a;
 }
 
 :root {
