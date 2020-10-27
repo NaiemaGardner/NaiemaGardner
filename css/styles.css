@@ -12,7 +12,7 @@
  */
 
 .lineBorder {
-  border: 1px dotted rgba(244, 98, 58, .8);
+  border: 1px solid rgba(244, 98, 58, .8);
 }
 
 :root {
