@@ -26,9 +26,9 @@
 	background-position: 0%;
 	/* width: 80%; */
 	/* margin: 10%; */
-  font-family: 'Modak', Arial;
+  font-family: 'Sigmar One', Arial, sans-serif;
 	font-size: 300px;
-	animation: clouds-moving infinite 220s;
+	animation: clouds-moving infinite 250s;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
 	animation-timing-function: linear;
