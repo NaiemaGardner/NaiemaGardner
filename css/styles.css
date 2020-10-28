@@ -26,7 +26,7 @@
 	background-position: 50% 50%;
   font-family: 'Sigmar One', Arial, sans-serif;
 	font-size: 300px;
-	animation: clouds-moving infinite 250s;
+	animation: clouds-moving infinite 200s;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
 	animation-timing-function: linear;
@@ -36,13 +36,13 @@
 
 @keyframes clouds-moving {
 	0% {
-		background-position: 0%;
+		background-position: 50% 50%;
 	}
 	50% {
-		background-position: 100%;
+		background-position: 100% 100%;
 	}
 	100% {
-		background-position: 0%;
+		background-position: 50% 50%;
 	}
 }
 
