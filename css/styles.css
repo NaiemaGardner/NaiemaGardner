@@ -24,10 +24,10 @@
 	background-size: auto;
 	background-attachment: unset;
 	background-position: 0%;
-	width: 80%;
-	margin: 10%;
+	/* width: 80%; */
+	/* margin: 10%; */
   font-family: 'Modak', Arial;
-	font-size: 200px;
+	font-size: 300px;
 	animation: clouds-moving infinite 220s;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
