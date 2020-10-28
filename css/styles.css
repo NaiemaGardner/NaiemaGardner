@@ -23,9 +23,7 @@
 	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
 	background-size: auto;
 	background-attachment: unset;
-	background-position: 0%;
-	/* width: 80%; */
-	/* margin: 10%; */
+	background-position: 50% 50%;
   font-family: 'Sigmar One', Arial, sans-serif;
 	font-size: 300px;
 	animation: clouds-moving infinite 250s;
