@@ -16,20 +16,25 @@
   color: rgba(244, 98, 58, .8);
   height: 1px;
 }
-
-.cssanimation, .cssanimation span {
-    animation-duration: 1s;
-    animation-fill-mode: both;
+.webDev {
+  position: relative;
+  text-transform: uppercase;
+  overflow: hidden;
+  background: linear-gradient(90deg, #fff, #000, #fff);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
-.cssanimation span { display: inline-block }
-
-.leRotateSkateInLeft span { animation-name: leRotateSkateInLeft }
-@keyframes leRotateSkateInLeft {
-    from {
-        transform: scaleX(0.2) translateX(-100px);
-        opacity: 0;
-    }
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
 
 :root {
