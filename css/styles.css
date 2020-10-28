@@ -26,12 +26,15 @@
 	background-position: 0%;
 	width: 80%;
 	margin: 10%;
-	font-size: 134px;
+  font-family: Arial;
+	font-size: 200px;
+  font-weight: bold;
 	animation: clouds-moving infinite 220s;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
 	animation-timing-function: linear;
 	text-align: center;
+  text-transform: uppercase;
 }
 
 @keyframes clouds-moving {
