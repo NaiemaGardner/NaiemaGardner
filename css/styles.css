@@ -25,7 +25,7 @@
 	background-attachment: unset;
 	background-position: 50% 50%;
   font-family: 'Sigmar One', Arial, sans-serif;
-	font-size: 300px;
+	font-size: 500px;
 	animation: clouds-moving infinite 200s;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
