@@ -47,65 +47,30 @@
 }
 
 .neon {
-    position: relative;
-    overflow: hidden;
-    filter: brightness(200%);
-}
+  background: 50% 100% / 50% 50% no-repeat
+              radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+             glow 2500ms linear infinite 2000ms;
 
-.text {
-    background-color: black;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    position: relative;
-    user-select: none;
-}
-
-.text::before {
-    content: attr(data-text);
-    position: absolute;
-    color: white;
-    filter: blur(0.02em);
-    mix-blend-mode: difference;
-}
-
-.gradient {
-    position: absolute;
-    background: linear-gradient(45deg, red, gold, lightgreen, gold, red);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    mix-blend-mode: multiply;
-}
-
-.spotlight {
-    position: absolute;
-    top: -100%;
-    left: -100%;
-    right: 0;
-    bottom: 0;
-    background:
-        radial-gradient(
-            circle,
-            white,
-            transparent 25%
-        ) center / 25% 25%,
-        radial-gradient(
-            circle,
-            white,
-            black 25%
-        ) center / 12.5% 12.5%;
-    animation: light 5s linear infinite;
-    mix-blend-mode: color-dodge;
-}
-
-@keyframes light {
-    to {
-        transform: translate(50%, 50%);
+  @keyframes reveal {
+    80%{
+      letter-spacing: 8px;
     }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
 }
 
 :root {
