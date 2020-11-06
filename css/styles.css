@@ -50,6 +50,22 @@
   text-shadow: 2px 2px 3px black, 0 0 20px #f4623a;
 }
 
+#mySkills {
+  text-shadow: 2px 2px 3px white, 0 0 5px black;
+}
+
+#myAbout {
+  text-shadow: 2px 2px 3px black, 0 0 5px white;
+}
+
+#myContact {
+  text-shadow: 2px 2px 3px white, 0 0 5px #f4623a;
+}
+
+#myResume {
+  text-shadow: 2px 2px 3px black, 0 0 5px white;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
