@@ -51,19 +51,23 @@
 }
 
 #mySkills {
-  text-shadow: 2px 2px 3px white, 0 0 5px black;
+  text-shadow: 2px 2px 3px white, 0 0 7px #f4623a;
 }
 
 #myAbout {
   text-shadow: 2px 2px 3px black, 0 0 5px white;
 }
 
+#aboutText {
+  text-shadow: 1px 1px 1px black;
+}
+
 #myContact {
-  text-shadow: 2px 2px 3px white, 0 0 5px #f4623a;
+  text-shadow: 2px 2px 3px white, 0 0 7px #f4623a;
 }
 
 #myResume {
-  text-shadow: 2px 2px 3px black, 0 0 5px white;
+  text-shadow: 2px 2px 5px black, 0 0 2px white;
 }
 
 :root {
