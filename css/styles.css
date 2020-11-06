@@ -58,16 +58,16 @@
   text-shadow: 2px 2px 3px black, 0 0 3px white;
 }
 
-#aboutText {
+/* #aboutText {
   text-shadow: 0 0 black;
-}
+} */
 
 #myContact {
   text-shadow: 2px 2px white, 2px 2px 7px #f4623a;
 }
 
 #myResume {
-  text-shadow: 2px 2px 5px black, 0 0 2px white;
+  text-shadow: 2px 2px 5px black, 0 0 3px white;
 }
 
 :root {
